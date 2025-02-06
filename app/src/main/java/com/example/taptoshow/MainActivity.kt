@@ -46,7 +46,7 @@ class MainActivity : ComponentActivity() {
         enableEdgeToEdge()
         setContent {
             TaptoshowTheme {
-
+//
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
                     MyApp()
                 }
